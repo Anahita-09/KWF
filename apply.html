@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply - Kode With Friends (K.W.F)</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="layout">
+        <!-- Side Navigation -->
+        <nav class="sidebar">
+            <div class="sidebar-header">
+                <h1 class="sidebar-title">Kode With Friends</h1>
+                <p class="sidebar-subtitle">K.W.F</p>
+            </div>
+            
+            <ul class="sidebar-nav">
+                <li><a href="index.html" class="nav-item">🏠 Home</a></li>
+                <li><a href="alumni.html" class="nav-item">👥 Alumni</a></li>
+                <li><a href="programs.html" class="nav-item">📚 Programs</a></li>
+                <li><a href="apply.html" class="nav-item active">📝 Apply</a></li>
+                <li><a href="projects.html" class="nav-item">💻 Projects</a></li>
+                <li><a href="impact.html" class="nav-item">🌟 Impact</a></li>
+            </ul>
+            
+            <div class="sidebar-footer">
+                <p>Made with 💜 by K.W.F</p>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="content-wrapper">
+                <header class="page-header">
+                    <h1 class="page-title">📝 Apply to Kode With Friends</h1>
+                </header>
+
+                <div class="content">
+                    <div class="section-intro">
+                        <p>Ready to start your coding journey? Apply to join Kode With Friends and become part of our supportive learning community. We welcome students of all experience levels!</p>
+                    </div>
+
+                    <div class="step-section">
+                        <h2>Application Process</h2>
+                        
+                        <div class="step-card">
+                            <h3>📋 Step 1: Complete Application Form</h3>
+                            <p>Fill out our comprehensive application form below. We want to learn about your interests, goals, and why you want to join our program.</p>
+                        </div>
+
+                        <div class="step-card">
+                            <h3>📞 Step 2: Interview</h3>
+                            <p>After reviewing your application, we'll schedule a brief interview to discuss your goals and answer any questions you may have about our program.</p>
+                        </div>
+
+                        <div class="step-card">
+                            <h3>✅ Step 3: Acceptance & Orientation</h3>
+                            <p>Once accepted, you'll receive a welcome package and attend an orientation session to meet your mentors and fellow students.</p>
+                        </div>
+                    </div>
+
+                    <div class="highlight-box">
+                        <h3>Application Requirements</h3>
+                        <ul>
+                            <li><strong>Age:</strong> Middle school and high school students (grades 6-12)</li>
+                            <li><strong>Experience:</strong> No prior coding experience required!</li>
+                            <li><strong>Commitment:</strong> Willing to attend regular sessions</li>
+                            <li><strong>Interest:</strong> Genuine interest in learning to code</li>
+                            <li><strong>Equipment:</strong> Access to a computer (we can help if needed)</li>
+                        </ul>
+                    </div>
+
+                    <div class="step-section">
+                        <h2>Application Form</h2>
+                        
+                        <div class="application-form">
+                            <form>
+                                <div class="form-group">
+                                    <label for="fullName">Full Name *</label>
+                                    <input type="text" id="fullName" name="fullName" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email">Email Address *</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="phone">Phone Number</label>
+                                    <input type="tel" id="phone" name="phone">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="grade">Current Grade Level *</label>
+                                    <select id="grade" name="grade" required>
+                                        <option value="">Select Grade</option>
+                                        <option value="6">6th Grade</option>
+                                        <option value="7">7th Grade</option>
+                                        <option value="8">8th Grade</option>
+                                        <option value="9">9th Grade</option>
+                                        <option value="10">10th Grade</option>
+                                        <option value="11">11th Grade</option>
+                                        <option value="12">12th Grade</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="school">School Name</label>
+                                    <input type="text" id="school" name="school">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="experience">Coding Experience Level *</label>
+                                    <select id="experience" name="experience" required>
+                                        <option value="">Select Experience Level</option>
+                                        <option value="none">No prior experience</option>
+                                        <option value="beginner">Some basic knowledge</option>
+                                        <option value="intermediate">Intermediate level</option>
+                                        <option value="advanced">Advanced level</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="languages">Programming Languages You've Used (if any)</label>
+                                    <input type="text" id="languages" name="languages" placeholder="e.g., Python, JavaScript, HTML">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="goals">What are your goals for learning to code? *</label>
+                                    <textarea id="goals" name="goals" rows="4" required placeholder="Tell us about your interests and what you hope to achieve through our program..."></textarea>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="projects">What kind of projects interest you? *</label>
+                                    <textarea id="projects" name="projects" rows="3" required placeholder="e.g., websites, mobile apps, games, data analysis..."></textarea>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="schedule">Preferred Schedule *</label>
+                                    <select id="schedule" name="schedule" required>
+                                        <option value="">Select Preferred Schedule</option>
+                                        <option value="after-school">After-school sessions (2-3 hours/week)</option>
+                                        <option value="weekend">Weekend workshops (4-6 hours/weekend)</option>
+                                        <option value="summer">Summer program (full-day sessions)</option>
+                                        <option value="online">Online sessions (flexible timing)</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="hear">How did you hear about Kode With Friends?</label>
+                                    <select id="hear" name="hear">
+                                        <option value="">Select Option</option>
+                                        <option value="social-media">Social Media</option>
+                                        <option value="school">School/Teacher</option>
+                                        <option value="friend">Friend/Family</option>
+                                        <option value="internet">Internet Search</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="questions">Any questions or additional information?</label>
+                                    <textarea id="questions" name="questions" rows="3" placeholder="Feel free to ask any questions or share additional information..."></textarea>
+                                </div>
+
+                                <div class="form-group">
+                                    <label>
+                                        <input type="checkbox" name="commitment" required>
+                                        I commit to attending regular sessions and completing assignments *
+                                    </label>
+                                </div>
+
+                                <div class="form-group">
+                                    <label>
+                                        <input type="checkbox" name="parental-consent" required>
+                                        I have parental/guardian consent to participate in this program *
+                                    </label>
+                                </div>
+
+                                <button type="submit" class="submit-btn">Submit Application</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="highlight-box">
+                        <h3>What Happens After You Apply?</h3>
+                        <ul>
+                            <li><strong>Within 48 hours:</strong> We'll review your application and contact you</li>
+                            <li><strong>Within 1 week:</strong> Schedule your interview (15-20 minutes)</li>
+                            <li><strong>Within 2 weeks:</strong> Receive acceptance decision</li>
+                            <li><strong>Within 1 month:</strong> Begin your coding journey!</li>
+                        </ul>
+                    </div>
+
+                    <div class="next-section">
+                        <h2>Questions About Applying?</h2>
+                        <p>We're here to help! Contact us with any questions about the application process.</p>
+                        <div class="next-links">
+                            <a href="programs.html" class="section-link">📚 Learn About Our Programs →</a>
+                            <a href="alumni.html" class="section-link">👥 Meet Our Alumni →</a>
+                            <a href="projects.html" class="section-link">💻 See Student Projects →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
